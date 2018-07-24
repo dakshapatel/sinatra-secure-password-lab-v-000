@@ -49,7 +49,7 @@ class ApplicationController < Sinatra::Base
     end
   end
 
-  
+
 
   get "/failure" do
     erb :failure
